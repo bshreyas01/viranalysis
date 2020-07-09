@@ -13,8 +13,8 @@ from nltk.corpus import stopwords
 
 
 reddit = praw.Reddit(client_id='Kc-VAYjEwxUIew',
-                     client_secret='gqt3JE7LmbXOq-e_irmTprc6s_0',
-                     user_agent='Bshreyas01')
+                     client_secret='',
+                     user_agent='')
 sns.set(style='darkgrid', context='talk', palette='Dark2')
 headlines = set()
 for submission in reddit.subreddit('coronavirus').hot(limit=None):
